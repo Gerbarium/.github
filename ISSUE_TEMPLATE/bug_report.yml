@@ -1,0 +1,67 @@
+name: 🐛 Баг-репорт
+description: Что-то сломалось или работает не так
+title: "[Баг]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что помогаешь делать Gerbarium лучше! Заполни форму — чем подробнее, тем быстрее мы починим.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание проблемы
+      description: Что произошло?
+      placeholder: Лаунчер закрывается сразу после нажатия «Играть»...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги для воспроизведения
+      description: Как нам повторить проблему у себя?
+      placeholder: |
+        1. Открыть лаунчер
+        2. Войти в аккаунт
+        3. Нажать «Играть»
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      description: Что должно было произойти?
+      placeholder: Должна запуститься игра...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Версия лаунчера
+      description: Видна в настройках лаунчера или в названии установщика
+      placeholder: 3.3.3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Операционная система
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Логи и скриншоты
+      description: Приложи скриншот ошибки и/или логи (папка logs рядом с лаунчером). Это очень ускоряет исправление!
+      placeholder: Перетащи файлы сюда...
+    validations:
+      required: false
