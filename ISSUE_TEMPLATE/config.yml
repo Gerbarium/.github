@@ -1,8 +1,0 @@
-blank_issues_enabled: true
-contact_links:
-  - name: 🌐 Сайт Gerbarium
-    url: https://gerbarium.by
-    about: Новости, правила и общение с командой — на сайте сервера
-  - name: ❓ Вопрос не про баг?
-    url: https://github.com/Gerbarium/discussions
-    about: Общие вопросы и обсуждения — в Discussions
