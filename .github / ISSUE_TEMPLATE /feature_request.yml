@@ -1,0 +1,30 @@
+name: 💡 Предложение
+description: Идея новой функции или улучшения
+title: "[Идея]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему это решит?
+      description: Опиши, что сейчас неудобно или чего не хватает
+      placeholder: Мне неудобно, что...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Как ты это видишь?
+      description: Опиши желаемое поведение или функцию
+      placeholder: Было бы круто, если бы...
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Дополнительно
+      description: Скриншоты, примеры из других лаунчеров, ссылки — всё, что поможет понять идею
+    validations:
+      required: false
