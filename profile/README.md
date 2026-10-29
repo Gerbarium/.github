@@ -1,4 +1,4 @@
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:364fb3,100:364fb3&height=200&section=header&text=Gerbarium&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Minecraft%20Server&descAlignY=70&descSize=25)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:00B1FF,100:364fb3&height=200&section=header&text=Gerbarium&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Minecraft%20Server&descAlignY=70&descSize=25)
 
 ### Minecraft-сервер, где всё работает из коробки
 
